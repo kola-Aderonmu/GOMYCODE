@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6cc7f344ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      href="https://as2.ftcdn.net/v2/jpg/01/08/18/23/1000_F_108182307_bZdLdC3moQALN0ORUbUIKpkGGV72B5Tc.jpg"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Kablammo&display=swap"
+      rel="stylesheet"
+    />
+    <title>Adekola_Port</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- Navbar -->
+      <nav class="nav-bar">
+        <!-- <div class="nav-bar-items"> -->
+        <ul class="nav-item">
+          <li>
+            <a href="#home"
+              ><i class="fa-solid fa-house" style="color: #37e6db"></i>Home |
+            </a>
+          </li>
+          <li>
+            <a href="#about">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  fill="#37e6db"
+                  d="M512 80c8.8 0 16 7.2 16 16V416c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V96c0-8.8 7.2-16 16-16H512zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM208 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-32 32c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16H304c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80H176zM376 144c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376z"
+                />
+              </svg>
+              About Me | hello
+            </a>
+          </li>
+          <li>
+            <a href="#work">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 496 512"
+              >
+                <path
+                  fill="#37e6db"
+                  d="M247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3zm94 144.3v42.5H162.1V197h180.3zm0 79.8v42.5H162.1v-42.5h180.3z"
+                />
+              </svg>
+              My Works |
+            </a>
+          </li>
+          <li>
+            <a href="#resume">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 640 512"
+              >
+                <path
+                  fill="#37e6db"
+                  d="M337.8 5.4C327-1.8 313-1.8 302.2 5.4L166.3 96H48C21.5 96 0 117.5 0 144V464c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V144c0-26.5-21.5-48-48-48H473.7L337.8 5.4zM256 416c0-35.3 28.7-64 64-64s64 28.7 64 64v96H256V416zM96 192h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H512c-8.8 0-16-7.2-16-16V208zM96 320h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V336c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H512c-8.8 0-16-7.2-16-16V336zM232 176a88 88 0 1 1 176 0 88 88 0 1 1 -176 0zm88-48c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H336V144c0-8.8-7.2-16-16-16z"
+                />
+              </svg>
+              Resume |
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="#37e6db"
+                  d="M96 0C60.7 0 32 28.7 32 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H96zM208 288h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H144c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM512 80c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V80zM496 192c-8.8 0-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm16 144c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V336z"
+                />
+              </svg>
+              Contact Me
+            </a>
+          </li>
+        </ul>
+        <!-- </div> -->
+        <!-- Include an Image
+
+        <img src="/a.png" alt="my_pic" id="nav-logo" /> -->
+      </nav>
+    </header>
+
+    <main>
+      <div class="title-img">
+        <div class="name"><h1>ADEKOLA ADERONMU</h1></div>
+        <section id="home">
+          <div class="welcome-text">
+            <p>
+              <span class="big">Hello, </span
+              ><em style="font-size: 20px"> it is nice having you here!</em>
+            </p>
+
+            <div class="para">
+              <p>
+                My passion lies in optimizing processes, enhancing deployment
+                strategies, and leveraging cutting-edge technologies to drive
+                efficiency in software development. I am dedicated to creating
+                environments where teams can innovate rapidly and deliver
+                high-quality solutions.
+              </p>
+
+              <p>
+                Let's navigate the DevOps landscape together and accelerate your
+                journey towards operational excellence.
+              </p>
+            </div>
+          </div>
+          <div>
+            <!-- <img
+              src="https://th.bing.com/th/id/OIP.lgL6Pb6es2TmyZa6F5qHmAHaE7?pid=ImgDet&rs=1"
+              alt="my_car"
+            /> -->
+          </div>
+        </section>
+      </div>
+
+      <!-- <div class="name"><h1>ADEKOLA ADERONMU</h1></div> -->
+
+      <!-- Home Section -->
+      <!-- Note for future -->
+      <!-- <section id="home">
+        <div class="welcome-text">
+          <h1>
+            <img
+              src="image\Linux-icon.png"
+              alt="smile"
+              style="width: 32px; height: 32px"
+            />
+            <u>Welcome to My Portfolio</u>
+          </h1>
+
+          <div class="para">
+            <p>
+              My passion lies in optimizing processes, enhancing deployment
+              strategies, and leveraging cutting-edge technologies to drive
+              efficiency in software development. I am dedicated to creating
+              environments where teams can innovate rapidly and deliver
+              high-quality solutions.
+            </p>
+
+            <p>
+              Let's navigate the DevOps landscape together and accelerate your
+              journey towards operational excellence.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img
+            src="https://th.bing.com/th/id/OIP.lgL6Pb6es2TmyZa6F5qHmAHaE7?pid=ImgDet&rs=1"
+            alt="my_car"
+          />
+        </div>
+      </section> -->
+
+      <!-- About Me Section -->
+      <section id="about">
+        <h2 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)">
+          <img
+            src="image\Linux-icon.png"
+            alt="smile"
+            style="width: 32px; height: 32px"
+          /><u>About Me</u>
+        </h2>
+        <div class="para2">
+          <p>Hello,</p>
+          <p style="padding-bottom: 15px">
+            I am a seasoned <em>DevOps engineer</em> with a passion for
+            orchestrating seamless integration between development and
+            operations teams. With a background in both software development and
+            IT operations, I bring a holistic approach to the software
+            development lifecycle.
+          </p>
+
+          <p style="padding-bottom: 15px">
+            My expertise lies in designing and implementing robust CI/CD
+            pipelines, automating deployment processes, and ensuring the
+            scalability, security, and reliability of applications in
+            production. I am well-versed in utilizing tools such as Jenkins,
+            Docker, Kubernetes, and Terraform to streamline workflows and
+            accelerate the delivery of high-quality software.
+          </p>
+
+          <p>
+            In addition to technical skills, I thrive on
+            <span
+              >fostering a culture of collaboration and continuous improvement
+              within teams</span
+            >. My goal is to break down silos, optimize processes, and empower
+            teams to deliver value to users faster and more efficiently.
+          </p>
+        </div>
+      </section>
+
+      <div class="advert">
+        <div class="mother-div">
+          <section id="work">
+            <h2 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)">
+              <img
+                src="image\Linux-icon.png"
+                alt="smile"
+                style="width: 32px; height: 32px"
+              /><u>Work Experience</u>
+            </h2>
+            <div class="work-project">
+              <p>The following are links to some of my recent work:</p>
+              <ul>
+                <li>
+                  <a
+                    href="https://github.com/kola-Aderonmu/Fun-Project.git"
+                    target="_blank"
+                  >
+                    <i
+                      class="fa-solid fa-paper-plane"
+                      style="color: #abeee9"
+                    ></i>
+                    My Projects</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/kola-Aderonmu/Digital-Clock.git"
+                    target="_blank"
+                  >
+                    <i
+                      class="fa-solid fa-paper-plane"
+                      style="color: #abeee9"
+                    ></i>
+                    An AI Power Digital Clock</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/kola-Aderonmu/Digital-Clock.git"
+                    target="_blank"
+                  >
+                    <i
+                      class="fa-solid fa-paper-plane"
+                      style="color: #abeee9"
+                    ></i>
+                    An AI Power Digital Clock</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/kola-Aderonmu/Digital-Clock.git"
+                    target="_blank"
+                  >
+                    <i
+                      class="fa-solid fa-paper-plane"
+                      style="color: #abeee9"
+                    ></i>
+                    An AI Power Digital Clock</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/kola-Aderonmu/Digital-Clock.git"
+                    target="_blank"
+                  >
+                    <i
+                      class="fa-solid fa-paper-plane"
+                      style="color: #abeee9"
+                    ></i>
+                    An AI Power Digital Clock</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i
+                      class="fa-solid fa-paper-plane"
+                      style="color: #abeee9"
+                    ></i>
+                    Some Cyber Tool for Tracking</a
+                  >
+                </li>
+                <!-- Add more work experience items -->
+              </ul>
+            </div>
+          </section>
+
+          <!-- Resume Section -->
+          <section id="resume">
+            <h2 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)">
+              <img
+                src="image\Linux-icon.png"
+                alt="smile"
+                style="width: 32px; height: 32px"
+              />
+              <u>My Resume</u>
+            </h2>
+            <!-- Adding my resume using tables -->
+            <div class="table-item">
+              <table border="1">
+                <td><strong>Stack</strong></td>
+                <td>
+                  <p>Devops Engineer</p>
+                  <p>Critical Data Analysis</p>
+                  <p>Server Administrator</p>
+                  <p>Software Engineer(Django,MERN,Ruby,Nodejs)</p>
+                  <p>Azure Cloud Engineer</p>
+                </td>
+                <td>
+                  <tr>
+                    <td><strong>Experience</strong></td>
+                    <td>
+                      <p>Programme Manage</p>
+                      <p>Software Engineer</p>
+                      <p>Devops Engineer</p>
+                      <p>Devops Engineer(remote)</p>
+                    </td>
+                    <td>
+                      <p>UBEC Facility</p>
+                      <p>Google</p>
+                      <p>Starlink Inc</p>
+                    </td>
+                    <td>
+                      <p>2016-2018</p>
+                      <p>2019-2020</p>
+                      <p>2020- till date</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2"><strong>Education</strong></td>
+                    <td>
+                      <p>Msc Software</p>
+                      <p>Msc in Project Mgt</p>
+                    </td>
+                    <td>
+                      <p>North America Univerisity</p>
+                      <p>University of Cambridge</p>
+                    </td>
+                    <td>
+                      <p>2018</p>
+                      <p>2020</p>
+                    </td>
+                  </tr>
+                  <tr></tr>
+                </td>
+              </table>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- Work Section -->
+      <!-- <div class="mother-div"> -->
+      <!-- <section id="work">
+          <h2 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)">
+            <img
+              src="image\Linux-icon.png"
+              alt="smile"
+              style="width: 32px; height: 32px"
+            /><u>Work Experience</u>
+          </h2>
+          <div class="work-project">
+            <p>The following are some links of my recent work:</p>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/kola-Aderonmu/Fun-Project.git"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-paper-plane" style="color: #abeee9"></i>
+                  My Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/kola-Aderonmu/Digital-Clock.git"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-paper-plane" style="color: #abeee9"></i>
+                  An AI Power Digital Clock</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/kola-Aderonmu/Digital-Clock.git"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-paper-plane" style="color: #abeee9"></i>
+                  An AI Power Digital Clock</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/kola-Aderonmu/Digital-Clock.git"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-paper-plane" style="color: #abeee9"></i>
+                  An AI Power Digital Clock</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/kola-Aderonmu/Digital-Clock.git"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-paper-plane" style="color: #abeee9"></i>
+                  An AI Power Digital Clock</a
+                >
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fa-solid fa-paper-plane" style="color: #abeee9"></i>
+                  Some Cyber Tool for Tracking</a
+                >
+              </li>
+              <!-- Add more work experience items -->
+      <!-- </ul> -->
+      <!-- </div> -->
+      <!-- </section>  -->
+
+      <!-- Resume Section -->
+      <!-- <section id="resume">
+          <h2 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)">
+            <img
+              src="image\Linux-icon.png"
+              alt="smile"
+              style="width: 32px; height: 32px"
+            />
+            <u>My Resume</u>
+          </h2>
+          <!-- Adding my resume using tables -->
+      <!-- <div class="table-item">
+            <table border="1">
+              <td><strong>Stack</strong></td>
+              <td>
+                <p>Devops Engineer</p>
+                <p>Critical Data Analysis</p>
+                <p>Server Administrator</p>
+                <p>Software Engineer(Django,MERN,Ruby,Nodejs)</p>
+                <p>Azure Cloud Engineer</p>
+              </td>
+              <td>
+                <tr>
+                  <td><strong>Experience</strong></td>
+                  <td>
+                    <p>Programme Manage</p>
+                    <p>Software Engineer</p>
+                    <p>Devops Engineer</p>
+                    <p>Devops Engineer(remote)</p>
+                  </td>
+                  <td>
+                    <p>UBEC Facility</p>
+                    <p>Google</p>
+                    <p>Starlink Inc</p>
+                  </td>
+                  <td>
+                    <p>2016-2018</p>
+                    <p>2019-2020</p>
+                    <p>2020- till date</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="2"><strong>Education</strong></td>
+                  <td>
+                    <p>Msc Software</p>
+                    <p>Msc in Project Mgt</p>
+                  </td>
+                  <td>
+                    <p>North America Univerisity</p>
+                    <p>University of Cambridge</p>
+                  </td>
+                  <td>
+                    <p>2018</p>
+                    <p>2020</p>
+                  </td>
+                </tr>
+                <tr></tr>
+              </td>
+            </table>
+          </div>
+        </section> -->
+
+      <!-- </div> -->
+
+      <!-- Contact Me Section -->
+      <section id="contact">
+        <h2 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)">
+          <u>
+            <i class="fa-light fa-phone-intercom" style="color: #53f0f3"></i>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1.5em"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="#37e6db"
+                d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+              />
+            </svg>
+            Contact Me</u
+          >
+        </h2>
+
+        <!-- HTML form for contact -->
+
+        <div class="form-format">
+          <!-- Add your video element here -->
+          <video width="520" height="440" controls>
+            <source
+              src="https://www.youtube.com/watch?v=VGa1imApfdg&pp=ygUZYWR2ZXJ0aXNlbWVudCBjb21tZXJjaWFscw%3D%3D"
+              type="video/mp4"
+            />
+          </video>
+          <!-- <iframe
+            src="C:\Users\HP OMEN\Downloads\Telegram Desktop\Fast.X.2023.@moviesextra.mkv"
+            width="520"
+            height="440"
+            frameborder="0"
+            allowfullscreen
+          ></iframe> -->
+
+          <!-- <div class="table-form"> -->
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Phone No:</label>
+            <input type="numbers" id="phone" />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" value="Submit">Submit</button>
+          </form>
+          <!-- </div> -->
+
+          <div class="media-connect">
+            <p>Follow me @</p>
+            <a href="http://facebook.com"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="3em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="#3379f3"
+                  d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                /></svg
+            ></a>
+            <a href="http://instagram.com"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="3em"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  fill="#e8328a"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                /></svg
+            ></a>
+
+            <a href="http://twitter.com"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="3em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Section -->
+      <section></section>
+    </main>
+
+    <!-- Page Footer -->
+    <div class="footer">
+      <p>&copy; 2023 kola_aderonmu. All rights reserved.</p>
+    </div>
+  </body>
+</html>
